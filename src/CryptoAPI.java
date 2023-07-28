@@ -1,4 +1,5 @@
 import com.google.gson.JsonElement;
+
 import java.util.Scanner;
 import java.io.IOException;
 
@@ -39,7 +40,4 @@ public class CryptoAPI {
         else
             System.out.println("Price change in the last 24 hours: +" + changePrice24 + " USD");
     }
-
-
-
 }
